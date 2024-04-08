@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+        body{
+        background-color: #f1eaea;
+        font-family: "Tilt Neon", "Roboto", sans-serif;
+        text-align: center;
+        }
+
+        #form-box{
+            display: flex;
+            justify-content: center;
+
+        }
+
+        button{
+            margin: 10px;
+            border-style: solid;
+            border-width: 1px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Seja muito Bem vindo ao sistema de Consultas, oque deseja fazer?</h1>
+    <div id="form-box">
+        <form action="/cadastrarConsultas" method="GET">
+            <Button>Cadastrar</Button>
+        </form>
+        <form action="/editarConsultas" method="GET">
+            <Button>Editar </Button>
+        </form>
+        <form action="/listarConsultas" method="GET">
+            <Button>Exibir</Button>
+        </form>
+    </div>
+</body>
+</html>

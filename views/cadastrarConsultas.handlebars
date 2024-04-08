@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Consulta</title>
+</head>
+<body>
+    <h1>Adicionar Consulta</h1>
+    <form action="/cadastrarConsultas" method="POST">
+        <label for="paciente">Paciente:</label>
+        <input type="text" id="paciente" name="paciente">
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data">
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora">
+        <button type="submit">Adicionar Consulta</button>
+    </form>
+</body>
+</html>
